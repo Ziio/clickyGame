@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/local/Cellar/node/10.1.0/bin/node /usr/local/bin/yarn start
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  10.1.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/zhiiho/Documents/coding-bc/clickyGame/package.json: Unexpected token } in JSON at position 203
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1136:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:109:13
+      at run (/usr/local/lib/node_modules/yarn/lib/cli.js:95053:22)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:95070:30
+      at flush (/usr/local/lib/node_modules/yarn/lib/cli.js:94576:9)
+      at process._tickCallback (internal/process/next_tick.js:61:11)
+
+npm manifest: 
+  {
+    "name": "clickygame",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "react-scripts start",
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/calvinleung0/clickyGame.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/calvinleung0/clickyGame/issues"
+    },
+    "homepage": "https://github.com/calvinleung0/clickyGame#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
